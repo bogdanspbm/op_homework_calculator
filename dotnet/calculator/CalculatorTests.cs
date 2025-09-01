@@ -145,6 +145,7 @@ namespace CalculatorApp.Tests
         {
             Assert.AreEqual(4, Calculator.Calculate("8 / 2"));
             Assert.AreEqual(2, Calculator.Calculate("7 - 10 / 2"));
+            Assert.AreEqual(2, Calculator.Calculate("10 / 2 - 3"));
         }
 
         [Test]

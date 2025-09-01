@@ -83,6 +83,7 @@ def test_calculate_multiple():
 def test_calculate_division():
     assert calculate("8 / 2") == 4
     assert calculate("7 - 10 / 2") == 2  # проверка приоритета
+    assert calculate("10 / 2 - 3") == 2  # проверка приоритета
 
 def test_calculate_nested_parentheses():
     assert calculate("2 * ( 3 + ( 4 * ( 5 - 1 ) ) )") == 38
