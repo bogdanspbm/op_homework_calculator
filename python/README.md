@@ -71,3 +71,5 @@ pytest -k test_calculate_with_parentheses
 # Дополнительные материалы
 
 📚 [Разбор реализации](https://telegra.ph/Obratnaya-polskaya-notaciya-chto-ty-takoe-Ili-kak-vyvesti-proizvodnuyu-slozhnoj-funkcii-04-28)
+
+📚 [Видео на YouTube, что-то очень похожее на разбор с практики](https://www.youtube.com/watch?v=Vk-tGND2bfc)
