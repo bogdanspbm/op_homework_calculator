@@ -68,7 +68,7 @@ def test_eval_postfix_error_unknown_token():
         eval_postfix(["2", "X", "+"])
 
 # --------------------------
-# ТЕСТЫ calculate (интеграционные)
+# ТЕСТЫ calculate
 # --------------------------
 
 def test_calculate_simple():
@@ -102,6 +102,9 @@ def test_calculate_large_expression_2():
     expr = "1 + 2 * 3 + 4 * 5 + ( 6 - 2 ) * 3"
     assert calculate(expr) == 39
 
+def test_calculate_dop():
+    expr = "12 + 6 * ( 7 - 3 )"
+    assert calculate(expr) == 36
 
 # --------------------------
 # ТЕСТЫ на исключения
